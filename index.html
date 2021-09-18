@@ -9,45 +9,16 @@
 </head>
 <body>
     
-
-    <div class='container1'>
-        <h1>Age in Days</h1>
-        <div class="flex-box-container1" >
-            <div>
-                <button class="btn btn-primary" onclick="ageindays()">Click</button>
-            </div>
-            
-            <div>
-                <button class="btn btn-danger" onclick="reset()">Reset</button>
-            </div>
-        
-        </div>
-
-        <div class="flex-box-container1">
-            <div id="flex-box-result"></div>
-        </div>
-    </div>
-
-
-    <div class='container2'>
-        <h2>Cat Generator</h2>
-        <button class="btn btn-success" id='cat-gen-button' onclick='generatecat()'>Generate Cat</button>
-
-        <div class='flex-box-container2' id='flex-cat-gen'>
-        </div>
-
-    </div>
-
-
+    <age-in-days></age-in-days>
+    <cat-generator></cat-generator>
     <div class='container3'> 
-        <h2>Rock, Paper, Scissors</h2>
-        <div class='flex-box-rps' id='flex-box-rps-div'>
-            <img id='rock' src="rock.png" height=150 width=150 alt="" onclick="rpsgame(this)">
-            <img id='paper' src="paper.png"  height=150 widht=150 alt="" onclick='rpsgame(this)'>
-            <img id='scissors' src="scissors.png" height=150 width=150 alt="" onclick='rpsgame(this)'>
-        </div>
+    <h2>Rock, Paper, Scissors</h2>
+    <div class='flex-box-rps' id='flex-box-rps-div'>
+        <img id='rock' src="../rock.png" height=150 width=150 alt="" onclick="rpsgame(this)">
+        <img id='paper' src="../paper.png"  height=150 widht=150 alt="" onclick='rpsgame(this)'>
+        <img id='scissors' src="../scissors.png" height=150 width=150 alt="" onclick='rpsgame(this)'>
     </div>
-
+    </div>
 
     <div class='container4'>
         <h2 id="change-my-color">Change the Color of All Buttons!</h2>
@@ -108,5 +79,12 @@
     </div>
 
     <script src='static/script.js'></script>
+    <script src='static/customcomponent1.js'></script>
+    <script src='static/customcomponent2.js'></script>
+    <script src='static/customcomponent3.js'></script>
+
+
+    
+
 </body>
 </html>
